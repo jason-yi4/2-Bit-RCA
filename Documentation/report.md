@@ -1,9 +1,13 @@
-# Report
-
-## Summary
+# Summary
 The ripple-carry adder computes the sum of two 2-bit binary numbers and outputs the sum and carry bit (carryout).
 
 Both a half adder and full adder were constructed before the RCA to demonstrate how they combine to form the RCA.
+
+Diagrams and truth tables for all adders are documented below. At the bottom of this report, you will find example images of the RCA breadboard circuit.
+
+---
+
+# Half Adder
 
 ## Truth Table for Half Adder
 | A | B | Carry | Sum |
@@ -14,3 +18,61 @@ Both a half adder and full adder were constructed before the RCA to demonstrate 
 | 1 | 1 | 1 | 0 |
 
 ## Circuit Diagram for Half Adder
+<img src="../Media/ECE%20232%20-%20Half%20Adder-1.jpg" alt="Half Adder Circuit Diagram" width="600">
+
+## Wiring Diagram for Half Adder
+<img src="../Media/Half%20Adder%20Diagram.jpg" alt="Half Adder Wiring Diagram" width="800">
+
+---
+
+# Full Adder
+
+## Truth Table for Full Adder
+| A | B | C_in | C_out | Sum |
+| :---: | :---: | :---: | :---: | :---: |
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 0 | 0 | 1 |
+| 0 | 1 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 0 | 1 |
+| 1 | 0 | 1 | 1 | 0 |
+| 1 | 1 | 0 | 1 | 0 |
+| 1 | 1 | 1 | 1 | 1 |
+
+## Circuit Diagram for Full Adder
+<img src="../Media/FA.jpg" alt="Full Adder Circuit Diagram" width="600">
+
+## Wiring Diagram for Full Adder
+<img src="../Media/Full%20Adder%20Diagram.jpg" alt="Full Adder Wiring Diagram" width="800">
+
+---
+
+# Ripple-Carry Adder (RCA)
+
+## Truth Table for RCA
+| A_1 | A_0 | B_1 | B_0 | C_out | S_1 | S_0 |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 1 | 0 | 0 | 1 |
+| 0 | 0 | 1 | 0 | 0 | 1 | 0 |
+| 0 | 0 | 1 | 1 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 1 |
+| 0 | 1 | 0 | 1 | 0 | 1 | 0 |
+| 0 | 1 | 1 | 0 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 1 | 1 | 0 | 0 |
+| 1 | 0 | 0 | 0 | 0 | 1 | 0 |
+| 1 | 0 | 0 | 1 | 0 | 1 | 1 |
+| 1 | 0 | 1 | 0 | 1 | 0 | 0 |
+| 1 | 0 | 1 | 1 | 1 | 0 | 1 |
+| 1 | 1 | 0 | 0 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 0 | 1 | 0 | 1 |
+| 1 | 1 | 1 | 1 | 1 | 1 | 0 |
+
+## Circuit Diagram for RCA
+<img src="../Media/ECE%20232%20-%20Lab%204%20-%20Ripple%20Carry%20Adder(1)-1.jpg" alt="RCA Circuit Diagram" width="600">
+
+## Wiring Diagram for RCA
+<img src="../Media/2-Bit%20RCA%20Diagram.jpg" alt="RCA Wiring Diagram" width="800">
+
+
