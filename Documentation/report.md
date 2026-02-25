@@ -1,11 +1,11 @@
 # Summary
-The ripple-carry adder computes the sum of two 2-bit binary numbers and outputs the sum and carry bit (carryout).
+The ripple-carry adder computes the sum of two 2-bit binary numbers by combining the outputs of a half adder and full adder, then outputs the sum and carry bit (carryout).
 
 Both a half adder and full adder were constructed before the RCA to demonstrate how they combine to form the RCA.
 
 Diagrams and truth tables for all adders are documented below. At the bottom of this report, you will find example images of the RCA breadboard circuit.
 
-The RCA consists of an 8-pin switch array, an XOR gate, an AND gate, an OR gate, and a 10-LED array. More details on these components are available in the [Materials List](../materials_list.md).
+The RCA consists of an 8-pin switch array, an XOR gate, an AND gate, an OR gate, and a 10-LED array. More details on these components are available in the [Materials List](/materials_list.md).
 
 ---
 
