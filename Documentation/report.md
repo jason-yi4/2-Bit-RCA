@@ -5,6 +5,8 @@ Both a half adder and full adder were constructed before the RCA to demonstrate 
 
 Diagrams and truth tables for all adders are documented below. At the bottom of this report, you will find example images of the RCA breadboard circuit.
 
+The RCA consists of an 8-pin switch array, an XOR gate, an AND gate, an OR gate, and a 10-LED array. More details on these components are available in the [Materials List](../materials_list.md).
+
 ---
 
 # Half Adder
@@ -75,4 +77,8 @@ Diagrams and truth tables for all adders are documented below. At the bottom of 
 ## Wiring Diagram for RCA
 <img src="../Media/2-Bit%20RCA%20Diagram.jpg" alt="RCA Wiring Diagram" width="800">
 
+## Top Down View of RCA
+<img src="../Media/2-Input-RCA%20Example.jpg" alt="Example1" width="61000">
 
+## Angled View of RCA
+<img src="../Media/extra%20image%20of%20RCA%20for%20documentation.jpg" alt="Example2" width="61000">
